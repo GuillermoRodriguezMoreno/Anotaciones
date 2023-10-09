@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3559b7e7-700c-4083-85c1-6cbce8817a72" name="Changes" comment="commit inicial">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/anotaciones/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/anotaciones/Empleado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +20,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2WNzkcOPbpASZNG5dfTp46Pggr9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,17 +40,22 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/guillermorodriguez/dev/IntellijProyects/anotaciones",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "/home/guillermorodriguez/dev/IntellijProyects/anotaciones/src/main/java/org/iesvdm/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.EmpresaTest.procesadorTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.iesvdm.Main" />
       <module name="anotaciones" />
@@ -58,8 +69,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmpresaTest.procesadorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="anotaciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ies.vdm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ies.vdm" />
+      <option name="MAIN_CLASS_NAME" value="ies.vdm.EmpresaTest" />
+      <option name="METHOD_NAME" value="procesadorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="anotaciones" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="anotaciones" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmpresaTest.procesadorTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -72,7 +113,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696587971601</updated>
-      <workItem from="1696587972511" duration="507000" />
+      <workItem from="1696587972511" duration="1195000" />
+      <workItem from="1696589287003" duration="61000" />
+      <workItem from="1696848588298" duration="89000" />
+      <workItem from="1696848693503" duration="151000" />
+      <workItem from="1696848859669" duration="69000" />
+      <workItem from="1696848969094" duration="12000" />
+      <workItem from="1696849023424" duration="4941000" />
     </task>
     <task id="LOCAL-00001" summary="commit inicial">
       <option name="closed" value="true" />
@@ -82,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696588177326</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit inicial">
+      <option name="closed" value="true" />
+      <created>1696588703778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696588703778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
