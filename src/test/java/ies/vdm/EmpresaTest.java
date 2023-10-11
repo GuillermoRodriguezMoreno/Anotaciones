@@ -3,13 +3,24 @@ package ies.vdm;
 import org.iesvdm.models.*;
 import org.junit.jupiter.api.*;
 
+/**
+ * Tests relacionados con la clase Empresa
+ */
 public class EmpresaTest {
 
+    /**
+     * Test que comprueba que el cargador
+     * de contexto mediante Anotaciones
+     * funciona correctamente e instancia los
+     * tipos de empleados adecuadamente
+     */
     @Test
     public void procesadorTest(){
 
+        // Instancio empresa
         Empresa empresa = new Empresa();
 
+        // Cargo los valores segun las anotaciones
         Empresa.cargadorDeContexto(empresa);
 
         // Contadores
@@ -27,8 +38,10 @@ public class EmpresaTest {
             // Directivo
             if(empleado instanceof Directivo){
 
+                // La clase de empleado debe ser Directivo
                 Assertions.assertInstanceOf(Directivo.class, empleado);
 
+                // Incremento contador Directivo para posterior comprobacion
                 ++nDirectivo;
 
             }
@@ -36,6 +49,7 @@ public class EmpresaTest {
             // Tecnico
             else if (empleado instanceof Tecnico) {
 
+                // La clase de empleado debe ser Tecnico
                 Assertions.assertInstanceOf(Tecnico.class, empleado);
 
                 ++nTecnico;
@@ -45,6 +59,7 @@ public class EmpresaTest {
             // Oficial
             else if (empleado instanceof Oficial) {
 
+                // La clase de empleado debe ser Oficial
                 Assertions.assertInstanceOf(Oficial.class, empleado);
 
                 ++nOficial;

@@ -1,5 +1,9 @@
 package org.iesvdm.models;
 
+/**
+ * Operario tipo ternico que
+ * tiene asignado un perfil
+ */
 public class Tecnico extends Operario{
 
     // Atributos
@@ -7,9 +11,9 @@ public class Tecnico extends Operario{
     private String perfil;
 
     // Constructor
-    public Tecnico(String nombre, String apellidos, String dni, String dir, String tlf, String clase) {
+    public Tecnico(String nombre, String apellidos, String dni, String dir, String tlf) {
 
-        super(nombre, apellidos, dni, dir, tlf, clase);
+        super(nombre, apellidos, dni, dir, tlf);
 
     }
 

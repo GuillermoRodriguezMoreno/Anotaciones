@@ -1,5 +1,8 @@
 package org.iesvdm.models;
 
+/**
+ * Clase Empleado
+ */
 public class Empleado {
 
     // Atributos

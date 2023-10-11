@@ -1,5 +1,9 @@
 package org.iesvdm.models;
 
+/**
+ * Operario tipo Oficial que tiene
+ * asignado una categoria
+ */
 public class Oficial extends Operario{
 
     // Atributos
@@ -7,9 +11,9 @@ public class Oficial extends Operario{
     private String categoria;
 
     // Constructor
-    public Oficial(String nombre, String apellidos, String dni, String dir, String tlf, String clase) {
+    public Oficial(String nombre, String apellidos, String dni, String dir, String tlf) {
 
-        super(nombre, apellidos, dni, dir, tlf, clase);
+        super(nombre, apellidos, dni, dir, tlf);
 
     }
 
