@@ -1,7 +1,7 @@
 package org.iesvdm.models;
 
-import org.iesvdm.anotaciones.Empleado;
-import org.iesvdm.anotaciones.Empleados;
+import org.iesvdm.anotaciones.EmpleadoAnot;
+import org.iesvdm.anotaciones.EmpleadosAnot;
 
 import java.lang.annotation.Annotation;
 import java.util.ArrayList;
@@ -10,8 +10,8 @@ import java.util.List;
 import java.util.Set;
 
 
-@Empleado(nombre = "jose", apellidos = "Martin")
-@Empleado(nombre = "Pedro", apellidos = "Rodriguez")
+@EmpleadoAnot(nombre = "jose", apellidos = "Martin")
+@EmpleadoAnot(nombre = "Pedro", apellidos = "Rodriguez")
 public class Empresa {
 
     // Atributos
@@ -33,24 +33,20 @@ public class Empresa {
     // Cargador de contexto
     public static void cargadorDeContexto(Empresa empresa){
 
-        Annotation[] anotaciones = empresa.getClass().getAnnotations();
+        EmpleadosAnot empleadosAnotPadre = empresa.getClass().getAnnotation(EmpleadosAnot.class);
 
-        for (Annotation anotacion: anotaciones
+        EmpleadoAnot[] empleadoAnotHijos = empleadosAnotPadre.value();
+
+        for (EmpleadoAnot empleadoAnotHijo: empleadoAnotHijos
              ) {
 
-            if (anotacion instanceof Empleado){
+                String nombre = empleadoAnotHijo.nombre();
+                String apellidos = empleadoAnotHijo.apellidos();
 
-                System.out.println(anotacion);
+                empresa.getEmpleadoSet().add(new Empleado(nombre, apellidos));
 
-                String nombre = ((Empleado) anotacion).nombre();
-                String apellido = ((Empleado) anotacion).apellidos();
-
-                empresa.getEmpleadoSet().add(new org.iesvdm.models.Empleado(nombre, apellido));
-            }
         }
 
     }
-
-
 
 }

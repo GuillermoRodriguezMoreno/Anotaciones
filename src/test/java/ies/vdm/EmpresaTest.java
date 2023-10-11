@@ -12,6 +12,7 @@ public class EmpresaTest {
 
         Empresa.cargadorDeContexto(empresa);
 
+        Assertions.assertEquals(2, empresa.getEmpleadoSet().size());
 
     }
 }
