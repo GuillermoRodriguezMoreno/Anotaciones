@@ -10,11 +10,7 @@ public class Main {
 
         Empresa.cargadorDeContexto(empresa);
 
-        for (Empleado empleado : empresa.getEmpleadoSet()
-             ) {
+        System.out.println(empresa);
 
-            System.out.println(empleado.getNombre());
-
-        }
     }
 }

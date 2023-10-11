@@ -4,21 +4,30 @@ public class Empleado {
 
     // Atributos
 
-    private String nombre;
-    private String apellido;
+    protected String nombre;
+    protected String apellido;
+    protected String dni;
+    protected String direccion;
+    protected String telefono;
+    protected String clase;
 
     // Constructor
 
     public Empleado(){
 
     }
-    public Empleado(String nombre, String apellido) {
+
+    public Empleado(String nombre, String apellido, String dni, String direccion, String telefono, String clase) {
         this.nombre = nombre;
         this.apellido = apellido;
+        this.dni = dni;
+        this.direccion = direccion;
+        this.telefono = telefono;
+        this.clase = clase;
+
     }
 
-
-    // Getter y Setter
+// Getter y Setter
 
     public String getNombre() {
         return nombre;
@@ -35,4 +44,37 @@ public class Empleado {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
+
+    public String getDni() {
+        return dni;
+    }
+
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
+    public String getClase() {
+        return clase;
+    }
+
+    public void setClase(String clase) {
+        this.clase = clase;
+    }
+
 }

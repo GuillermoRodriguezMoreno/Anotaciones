@@ -7,9 +7,12 @@
     <list default="true" id="3559b7e7-700c-4083-85c1-6cbce8817a72" name="Changes" comment="commit inicial">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/anotaciones/Empleado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/anotaciones/Empleados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/anotaciones/EmpleadosAnot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Directivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Directivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Empleado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Oficial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Oficial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Operario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Operario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Tecnico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Tecnico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ies/vdm/EmpresaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ies/vdm/EmpresaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +59,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.EmpresaTest.procesadorTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.iesvdm.Main" />
       <module name="anotaciones" />
@@ -88,8 +91,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.EmpresaTest.procesadorTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +112,7 @@
       <workItem from="1696848969094" duration="12000" />
       <workItem from="1696849023424" duration="5992000" />
       <workItem from="1696933382860" duration="11000" />
-      <workItem from="1697006832900" duration="988000" />
+      <workItem from="1697006832900" duration="4761000" />
     </task>
     <task id="LOCAL-00001" summary="commit inicial">
       <option name="closed" value="true" />
@@ -135,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696854128862</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit inicial">
+      <option name="closed" value="true" />
+      <created>1697007877180</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697007877180</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,20 +157,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit inicial" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ies/vdm/EmpresaTest.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ies/vdm/EmpresaTest.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="org.iesvdm.models.Empresa" memberName="empleadoSet" />
