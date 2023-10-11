@@ -9,7 +9,6 @@ public class Empleado {
     protected String dni;
     protected String direccion;
     protected String telefono;
-    protected String clase;
 
     // Constructor
 
@@ -17,13 +16,13 @@ public class Empleado {
 
     }
 
-    public Empleado(String nombre, String apellido, String dni, String direccion, String telefono, String clase) {
+    public Empleado(String nombre, String apellido, String dni, String direccion, String telefono) {
+
         this.nombre = nombre;
         this.apellido = apellido;
         this.dni = dni;
         this.direccion = direccion;
         this.telefono = telefono;
-        this.clase = clase;
 
     }
 
@@ -67,14 +66,6 @@ public class Empleado {
 
     public void setTelefono(String telefono) {
         this.telefono = telefono;
-    }
-
-    public String getClase() {
-        return clase;
-    }
-
-    public void setClase(String clase) {
-        this.clase = clase;
     }
 
 }

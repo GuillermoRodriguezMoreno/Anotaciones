@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3559b7e7-700c-4083-85c1-6cbce8817a72" name="Changes" comment="commit inicial">
+    <list default="true" id="3559b7e7-700c-4083-85c1-6cbce8817a72" name="Changes" comment="Test finalizado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Directivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Directivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Empresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Oficial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Oficial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Operario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Operario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Tecnico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Tecnico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ies/vdm/EmpresaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ies/vdm/EmpresaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +105,7 @@
       <workItem from="1696848969094" duration="12000" />
       <workItem from="1696849023424" duration="5992000" />
       <workItem from="1696933382860" duration="11000" />
-      <workItem from="1697006832900" duration="4761000" />
+      <workItem from="1697006832900" duration="5263000" />
     </task>
     <task id="LOCAL-00001" summary="commit inicial">
       <option name="closed" value="true" />
@@ -146,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697007877180</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Test finalizado">
+      <option name="closed" value="true" />
+      <created>1697011637141</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697011637141</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +155,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit inicial" />
+    <MESSAGE value="Test finalizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test finalizado" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

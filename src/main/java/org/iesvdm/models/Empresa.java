@@ -70,19 +70,19 @@ public class Empresa {
 
                 if (clase.equalsIgnoreCase("directivo")){
 
-                    e = new Directivo(nombre, apellidos, dni, dir, tlf, clase);
+                    e = new Directivo(nombre, apellidos, dni, dir, tlf);
 
                 }
 
                 else if (clase.equalsIgnoreCase("tecnico")) {
 
-                    e = new Tecnico(nombre, apellidos, dni, dir, tlf, clase);
+                    e = new Tecnico(nombre, apellidos, dni, dir, tlf);
 
                 }
 
                 else if (clase.equalsIgnoreCase("oficial")) {
 
-                    e = new Oficial(nombre, apellidos, dni, dir, tlf, clase);
+                    e = new Oficial(nombre, apellidos, dni, dir, tlf);
 
                 }
 
